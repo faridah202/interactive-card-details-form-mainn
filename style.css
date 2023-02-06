@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    font-size: 18px;
+}
+.container{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: white;
+   height: 650px;
+}
+.back{
+ background: url(./images/bg-main-desktop.png) no-repeat center;
+ height: 650px;
+ width: 450px;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    right: 180px;
+}
+input[type=text] {
+    width: 300px;
+    height: 40px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  input[type=number]{
+    width: 300px;
+    height: 40px;
+    padding: 12px 20px;
+    border-radius: 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+ .labal{
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: left;
+    float: left;
+ }
+
+#door{
+    width: 500px;
+    position: relative;
+    top: -90px;
+    right: 180px;
+    font-size: 25px;
+    color: white;
+}
+#cardname{
+    position: relative;
+    right: 220px;
+    top: -70px;
+    color: white;
+}
+#cardnum{
+    position: relative;
+    left: 20px;
+    top: -90px;
+    color: white;
+}
+#backcard{
+    position: relative;
+    top: -170px;
+    left: 100px;
+    font-size: 14px;
+    color: white;
+}
+
+#thanks{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+   position: relative;
+   right: 200px;
+   top: -60px;
+}
+button{
+    background-color: hsl(278, 68%, 11%);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 280px;
+    margin-top: 20px;
+}
+input[type=submit]{
+    background-color: hsl(278, 68%, 11%);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 280px;
+    margin-top: 20px;
+}
+#message{
+    color: red;
+    font-size: 14px;
+}
+#msg{
+    color: red;
+    font-size: 14px;
+}
+#ello{
+    color: red;
+    font-size: 14px;
+}
+
+input[type=textrr]{
+    width: 60px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type=cardnumber]{
+    width: 150px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.start{
+    display: flex;
+}
+.cardface{
+    width: 350px; 
+    position: relative; 
+    left: -250px;
+}
+.cardack{
+    width: 350px; 
+    position: relative; 
+      left: -200px; 
+      top: -50px; 
+      margin: 10px;
+}
+
+@media (max-width: 450px){
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       align-items: center;
+        font-size: 18px;
+        width: 1000px;
+        height: 1000px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       background-color: white;
+       
+    }
+    .cardface{
+    width: 300px; 
+    position: relative;
+    left: -100px;
+}
+.cardack{
+    width: 300px; 
+    position: asolute; 
+      left: 5px; 
+      top: -450px;
+}
+.back{
+    background: url(./images/bg-main-desktop.png) no-repeat center;
+    height: 200px;
+    width: 400px;
+    position: relative;
+    left: -150px;  
+   }
+   #form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: -200px;
+}
+}
